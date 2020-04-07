@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bg.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet"> 
+  <title>PiggyVest | Dashboard</title>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="logo-div">
+        <a href="#"><img src="piggyvest-logo.svg" alt="logo" /></a>
+      </div>
+      <div class="form-container">
+        <header class="form-header">
+          <h1>Create a Secure Account</h1>
+          <p>Welcome to the future of Savings & Investments</p>
+        </header>
+        <form action="POST">
+          <div class="form-div">
+            <label>Full name</label><br>
+            <input type="text" name="fname" placeholder="Full Name" /><br>
+          </div>
+          <div class="form-div">
+            <label>Email address</label><br>
+            <input type="email" name="email" placeholder="Email Address" /><br>
+          </div>
+          <div class="form-div">
+            <label>Phone Number</label><br>
+            <input type="text" name="phone" placeholder="Phone Number" /><br>
+          </div>
+          <div class="form-div">
+            <label>Password</label><br>
+            <input type="password" name="password" placeholder="Password" /><br>
+          </div>
+          <div class="form-div">
+            <label>Referrer Phone or Promo Code (Optional)</label><br>
+            <input type="text" name="ref" placeholder="Referrer Phone Or Code" /><br>
+          </div>
+          <div class="form-div">
+            <label>How Did You Hear About Us? (Optional)</label><br>
+            <select name="how-you-heard-about-us" class="form-select">
+              <option value="null">Click To Start</option>
+              <option value="facebook">Facebook</option>
+              <option value="twitter">Twitter</option>
+              <option value="instagram">Instagram</option>
+              <option value="friend-family">Friend/Family/Coworker Referral</option>
+              <option value="google-search">Google search</option>
+              <option value="google-playstore">Google playStore</option>
+              <option value="online-blog">Online Blog</option>
+              <option value="local-news">Local Newspaper</option>
+              <option value="at-an-event">At an Event</option>
+              <option value="other">Other</option>
+            </select><br>
+          </div>
+          <div class="form-div form-submit">
+            <button type="submit">CREATE ACCOUNT</button>
+          </div>
+        </form>
+      </div>
+      <div class="div-footer">
+        <a href="#">Already have an account? Log In</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
